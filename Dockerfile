@@ -23,5 +23,6 @@ COPY . .
 RUN pip install --upgrade pip
 RUN pip install aiohttp
 
+EXPOSE 8080
 # Run your Python app
 CMD ["python", "main.py"]
