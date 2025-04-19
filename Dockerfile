@@ -16,11 +16,7 @@ ENV PYTHONUNBUFFERED=1
 # Install system dependencies for aiohttp and BeautifulSoup
 RUN apt-get update && apt-get install -y \
     gcc \
-    libffi-dev \
-    libxml2-dev \
-    libxslt1-dev \
-    libjpeg-dev \
-    zlib1g-dev \
+    python3.11-dev \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
