@@ -112,6 +112,8 @@ def hello():
     return {"message": "Hello FastAPI!"}
 #uvicorn.run(app, host="0.0.0.0", port=os.getenv("PORT", 8080))
 # uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000)
+#Comment out the if __name__ == "__main__" block if using CMD.
+
+#if __name__ == "__main__":
+#    import uvicorn
+#    uvicorn.run("main:app", host="0.0.0.0", port=8000)
